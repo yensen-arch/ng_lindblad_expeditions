@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Authentic Exploration",
-  description: "Engage in meaningful adventures, from kayaking among icebergs to visiting remote communities, all while contributing to conservation efforts.",
+  title: "National Geographic Partnership",
+  description: "Expeditions co-created with NatGeo feature expert photography, conservation, and scientific discovery.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Expert-Led Journeys",
-  description: "Benefit from the knowledge of onboard specialists, including marine biologists, historians, and National Geographic photographers, who provide deeper understanding and context.",
+  title: "Expedition Fleet Variety",
+  description: "Small vessels purpose-built for exploration, from Arctic ice to tropical archipelagos.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Commitment to Sustainability",
-  description: "With initiatives like carbon neutrality and the elimination of single-use plastics, your travels support the health of the planet.",
+  title: "Expert-Led Learning",
+  description: "Travel with naturalists, researchers, and photographers enhancing every destination.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Cultural Immersion",
-  description: "Experience local cultures through authentic interactions, from traditional meals to guided tours led by local experts.",
+  title: "Adventure Gear Included",
+  description: "Use kayaks, paddleboards, and snorkel gear for up-close wilderness exploration.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* National Geographic Lindblad Expeditions Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
